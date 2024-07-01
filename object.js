@@ -58,7 +58,70 @@ const obj4 = { ...obj1, ...obj2 };
 // console.log(obj4);
 
 // four additional methods
-console.log(Object.keys(user));
-console.log(Object.values(user));
-console.log(Object.entries(user));
-console.log(user.hasOwnProperty("name"));
+// console.log(Object.keys(user));
+// console.log(Object.values(user));
+// console.log(Object.entries(user));
+// console.log(user.hasOwnProperty("name"));
+
+// Destructuring
+// const { email: mail } = user;
+// console.log(mail);
+
+const { email } = user;
+console.log(email);
+
+// simple method is to get value using key as
+// console.log(user.email);
+
+// >>>>>>>>>>>>>
+// vvvvvvvvvvvvv
+/* Api are services that are interchanged between server and clients
+the data is transfered in json format.Json is human readable data. 
+It can be any data type.Here is the example that includes all
+
+{
+  "firstName": "Jane",
+  "lastName": "Doe",
+  "age": 25,
+  "isStudent": true,
+  "courses": [
+    {
+      "name": "Math",
+      "grade": "A"
+    },
+    {
+      "name": "Science",
+      "grade": "B+"
+    },
+    {
+      "name": "History",
+      "grade": "A-"
+    }
+  ],
+  "address": {
+    "street": "123 Main St",
+    "city": "Anytown",
+    "state": "CA",
+    "zip": "12345"
+  },
+  "phoneNumbers": [
+    {
+      "type": "home",
+      "number": "555-555-5555"
+    },
+    {
+      "type": "mobile",
+      "number": "555-555-5556"
+    }
+  ],
+  "email": "jane.doe@example.com",
+  "isActive": true,
+  "languages": ["English", "Spanish", "French"],
+  "preferences": {
+    "contactMethod": "email",
+    "newsletterSubscribed": false
+  },
+  "membership": null
+}
+
+*/
