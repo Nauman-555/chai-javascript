@@ -1,6 +1,8 @@
 // const myArr = ["bebo", "awais", "bido"];
 // const myArr2 = ["ab", "khan", "baba"];
 
+// push, concat and spread operator are three ways to combine arrays
+
 // it updates the original array ,also it addes the new array as single element, now after
 // the push total are four elements, 3 are from original array and one whole array that
 //  acts as one element after being pushed
