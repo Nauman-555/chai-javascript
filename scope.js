@@ -48,8 +48,8 @@ function one() {
     const def = "def";
     console.log(abc);
   }
-  console.log(def);
+  //   console.log(def);
 }
-console.log(one());
+// console.log(one());
 
 // inner can access outer, but outer can't access inner
